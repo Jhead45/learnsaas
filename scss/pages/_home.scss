@@ -9,4 +9,43 @@
     .col {
         height: 100vh;
     }
+
+    .box {
+        position: absolute;
+        margin-top: 350;
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        left: calc(50% - 50px);
+    }
+
+    .animations {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .bounce {
+        animation: Bounce;
+        animation-direction: alternate;
+        animation-duration: 1.2s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+    }
+
+    @keyframes Bounce {
+        from {
+            transform: translateY(75px);
+            background: $caution;
+        }
+    
+        to {
+            transform: translateY(500px);
+            background: $secondary;
+        }
+    }
 }

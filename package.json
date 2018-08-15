@@ -1,0 +1,23 @@
+{
+  "name": "learnsaas",
+  "version": "1.0.0",
+  "description": "learning saas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:css": "npx node-sass scss/app.scss -wo css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhead45/learnsaas.git"
+  },
+  "author": "Justin Head",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jhead45/learnsaas/issues"
+  },
+  "homepage": "https://github.com/Jhead45/learnsaas#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
